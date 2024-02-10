@@ -33,8 +33,11 @@ export function Navbar(){
         <li>
           <a href="#">Contact</a>
         </li>
+        <li>
+        <a href="/Home" className="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Trend_Micro_logo.svg/2560px-Trend_Micro_logo.svg.png" width={80} height={30} /></a>
+        </li>
       </ul>
-      <a href="/Home" className="logo"><img src={logo} width={50} height={50} /></a>
+      <a href="/Home" className="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Trend_Micro_logo.svg/2560px-Trend_Micro_logo.svg.png" width={80} height={30} /></a>
     </div>
   </nav>
 </>
