@@ -8,12 +8,72 @@
   /* background-image: url(""); */
   background-size : cover;
   height : 100vh;
+  
 }
 
-.cover h1 {
+
+
+.cover .titleheading {
   color : #fff;
-  text-align: center;
+  text-align: left;
   padding-top: 50vh;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-left: 10rem;
 }
+
+.cover .titleheading2{
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 10rem;
+}
+
+.cover button{
+  background-color: red;
+  padding: 0 10px;
+  color:#fff;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  margin-left: 10rem;
+  
+}
+
+
+.heading{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+ padding-top: 5rem;
+  color: #fff;
+}
+
+.cover .para{
+  font-size:20px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+}
+
+
+
+.imagebox {
+  float: right;
+  margin-top: 2rem;
+  width: 50%; /* or any other desired width */
+}
+
+/* Responsive styles (adjust as needed) */
+@media (max-width: 768px) {
+  .imagebox {
+    flex-direction: column;
+  }
+
+  .imagebox {
+    width: 100%;
+  }
+}
+
 
 

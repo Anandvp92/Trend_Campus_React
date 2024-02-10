@@ -22,11 +22,11 @@
 }
 
 .navbar{
-    box-shadow: 0px 5px 10px 0px #aaa;
+    box-shadow: 0px 5px 10px 0px #555555;
     position: fixed;
     width: 100%;
-    background: #fff;
-    color: #000;
+    background: #000000;
+    color: #ffffff;
     opacity: 0.85;
     z-index: 100;
 }
@@ -41,6 +41,7 @@
 .menu-items{
     order: 2;
     display: flex;
+   
 }
 .logo{
     order: 1;
@@ -51,17 +52,22 @@
     list-style: none;
     margin-left: 1.5rem;
     font-size: 1.3rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .navbar a{
-    color: #444;
+    color: #fdf8f8;
     text-decoration: none;
     font-weight: 500;
-    transition: color 0.3s ease-in-out;
+    font-size: 20px;
+    font-weight: 700;
+    transition: color 0.2s ease-in-out, font-size 0.2s ease-in-out; 
 }
 
 .navbar a:hover{
-    color: #117964;
+    color: #19ef2b;
+    
 }
 
 @media (max-width: 768px){
@@ -110,7 +116,7 @@
         height: 4px;
         width: 100%;
         border-radius: 10px;
-        background: #333;
+        background: #fffdfd;
     }
     
     .navbar-container .hamburger-lines .line1{
@@ -129,7 +135,7 @@
 
     .navbar .menu-items{
         padding-top: 100px;
-        background: #fff;
+        background: #000000;
         height: 100vh;
         max-width: 300px;
         transform: translate(-150%);
@@ -138,7 +144,7 @@
         margin-left: -40px;
         padding-left: 40px;
         transition: transform 0.5s ease-in-out;
-        box-shadow:  5px 0px 10px 0px #aaa;
+        box-shadow:  5px 0px 10px 0px #676666;
         overflow: scroll;
     }
 
@@ -146,12 +152,14 @@
         margin-bottom: 1.8rem;
         font-size: 1.1rem;
         font-weight: 500;
+        
     }
 
     .logo{
         position: absolute;
         top: 10px;
         right: 15px;
+        margin-top: auto;
         font-size: 2.5rem;
     }
 
@@ -182,4 +190,20 @@
 .logoimage{
     height: 5rem;
     width: 5rem;
+}
+
+.contactbutton{
+    background-color: rgb(116, 12, 12);
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0c0c0c; 
+}
+
+.searchbar{
+height: 1.5rem;
+width: 15rem;
+font-size: 1rem;
+font-weight: 700;
+border: none;
 }
